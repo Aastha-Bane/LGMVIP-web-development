@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    text-align: center;
+    justify-content: center;
+    height: 10vh;
+    width: 500px;
+    margin: auto;
+}
+
+h2 {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25x;
+    color: white;
+    border-radius: 5px;
+    background-color: #000000;
+    padding: 8px;
+}
+
+body {
+    height: 100vh;
+    background: #dd9191;
+}
+
+.container {
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%, -60%);
+    top: 50%;
+    left: 50%;
+    background: white;
+    border-radius: 10px;
+}
+
+#newentry {
+    position: relative;
+    padding: 30px 20px;
+}
+
+#newentry input {
+    width: 75%;
+    height: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+}
+
+#newentry input:focus {
+    outline: none;
+    border-color: #000000;
+}
+
+#newentry button {
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+
+#tasks {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.task {
+    background-color: #808080;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+}
+
+.task span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.task button {
+    background-color: #000000;
+    color: #ffffff;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.delete {
+    font-size: 24px
+}
+
+.delete img {
+    height: 25px;
+    width: 25px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
